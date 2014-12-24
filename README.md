@@ -43,7 +43,7 @@ If everything is all set up
 
         apt-get install postgresql-server-dev-9.3
 
-	(It's possible that postgresql-server-dev-all also works, but -9.3 was the only package I tried)
+	(It's possible that `postgresql-server-dev-all` also works, but `-9.3` was the only package I tried)
 
 - Install deps of the image app
 

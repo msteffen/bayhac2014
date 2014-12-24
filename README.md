@@ -39,6 +39,10 @@ If you're on a VM and need to update cabal first:
 
 If everything is all set up
 ---------------------------
+- Install PostgreSQL (needed by one of the cabal dependencies)
+
+        apt-get install postgresql
+
 - Install deps of the image app
 
         cabal install --only-dependencies

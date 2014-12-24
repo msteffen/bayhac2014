@@ -41,7 +41,9 @@ If everything is all set up
 ---------------------------
 - Install PostgreSQL (needed by one of the cabal dependencies)
 
-        apt-get install postgresql
+        apt-get install postgresql-server-dev-9.3
+
+	(It's possible that postgresql-server-dev-all also works, but -9.3 was the only package I tried)
 
 - Install deps of the image app
 

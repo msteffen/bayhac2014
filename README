@@ -25,7 +25,7 @@ apt-get install zlib1g-dev
 cabal install cabal cabal-install
 
 # Create sandbox -- may be optional (probably is)
-cabal init
+cabal sandbox init
 
 ## If everything is all set up
 # Install deps of the image app

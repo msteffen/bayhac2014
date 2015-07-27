@@ -3,8 +3,6 @@ bayhac2014
 
 Small haskell webapp using Scotty and ImageMagick
 
-To build, just run the following
-
 If you're on a VM and need to update cabal first:
 -------------------------------------------------
 - Create a swap file (digitalocean and AWS VMs have no swap by default)
